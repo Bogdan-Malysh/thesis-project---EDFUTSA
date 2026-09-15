@@ -1,0 +1,9 @@
+country,branch,specification_id,specification_order,order,p,d,q,trend,transform,mae,rmse,mape,valid_dates,invalid_dates,expected_dates,evaluated_observations,expected_observations,coverage,eligible,shortlist_rank
+Germany,ordinary,enhanced_ordinary_arima_p1_d1_q2,2,"(1, 1, 2)",1,1,2,n,identity,11588.000334484566,13336.917540931217,26.04999525189289,16,0,16,384,384,1.0,True,1
+Germany,ordinary,enhanced_ordinary_arima_p1_d1_q1,1,"(1, 1, 1)",1,1,1,n,identity,11712.909109481603,13508.396278348748,26.420148361975645,16,0,16,384,384,1.0,True,2
+Germany,weekly_differenced,weekly_differenced_arima_p2_d0_q0,2,"(2, 0, 0)",2,0,0,c,weekly_difference,5354.763104770505,7819.451446557714,11.254267755406765,15,1,16,359,384,0.9375,True,1
+Austria,ordinary,enhanced_ordinary_arima_p3_d1_q3,9,"(3, 1, 3)",3,1,3,n,identity,1139.0774465462912,1348.218435221051,18.206628139844934,16,0,16,384,384,1.0,True,1
+Austria,ordinary,enhanced_ordinary_arima_p2_d1_q1,4,"(2, 1, 1)",2,1,1,n,identity,1141.0617973201377,1435.4092688715286,17.90149647607834,16,0,16,384,384,1.0,True,2
+Austria,ordinary,enhanced_ordinary_arima_p3_d1_q1,7,"(3, 1, 1)",3,1,1,n,identity,1224.862508253962,1537.5100670896675,19.59932535993029,16,0,16,384,384,1.0,True,3
+Austria,weekly_differenced,weekly_differenced_arima_p1_d0_q1,1,"(1, 0, 1)",1,0,1,c,weekly_difference,721.6254258817527,1090.7685812299424,11.182815225354116,15,1,16,359,384,0.9375,True,1
+Austria,weekly_differenced,weekly_differenced_arima_p2_d0_q0,2,"(2, 0, 0)",2,0,0,c,weekly_difference,759.0915080361681,1065.320885640842,11.543300259282578,15,1,16,359,384,0.9375,True,2

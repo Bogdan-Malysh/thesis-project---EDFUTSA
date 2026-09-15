@@ -1,0 +1,5 @@
+country,branch,target_date,target_timestamp_utc,affected_timestamp_utc,source_key,source_local_key,source_timestamp_utc,reason,source_row_count,coverage
+Germany,weekly_differenced,2024-04-07,2024-04-07 00:00:00+00:00,2024-04-07 00:00:00+00:00,"('2024-03-31', 2, 0)","('2024-03-31', 2, 0)",,missing_source,0,0.9583333333333334
+Germany,weekly_differenced,2024-10-27,2024-10-27 01:00:00+00:00,2024-10-27 01:00:00+00:00,"('2024-10-20', 2, 1)","('2024-10-20', 2, 1)",,missing_source,0,0.96
+Austria,weekly_differenced,2024-04-07,2024-04-07 00:00:00+00:00,2024-04-07 00:00:00+00:00,"('2024-03-31', 2, 0)","('2024-03-31', 2, 0)",,missing_source,0,0.9583333333333334
+Austria,weekly_differenced,2024-10-27,2024-10-27 01:00:00+00:00,2024-10-27 01:00:00+00:00,"('2024-10-20', 2, 1)","('2024-10-20', 2, 1)",,missing_source,0,0.96

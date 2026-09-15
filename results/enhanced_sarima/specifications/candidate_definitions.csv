@@ -1,0 +1,15 @@
+specification_order,specification_id,branch,p,d,q,P,D,Q,seasonal_period,trend,order,analysis_label
+1,sarima_p1_d0_q0_P0_D1_Q0_s24,s24,1,0,0,0,1,0,24,n,"(1, 0, 0, 0, 1, 0)",enhanced/post-hoc SARIMA robustness analysis
+2,sarima_p2_d0_q0_P0_D1_Q0_s24,s24,2,0,0,0,1,0,24,n,"(2, 0, 0, 0, 1, 0)",enhanced/post-hoc SARIMA robustness analysis
+3,sarima_p3_d0_q0_P0_D1_Q0_s24,s24,3,0,0,0,1,0,24,n,"(3, 0, 0, 0, 1, 0)",enhanced/post-hoc SARIMA robustness analysis
+4,sarima_p1_d0_q1_P0_D1_Q0_s24,s24,1,0,1,0,1,0,24,n,"(1, 0, 1, 0, 1, 0)",enhanced/post-hoc SARIMA robustness analysis
+5,sarima_p2_d0_q1_P0_D1_Q0_s24,s24,2,0,1,0,1,0,24,n,"(2, 0, 1, 0, 1, 0)",enhanced/post-hoc SARIMA robustness analysis
+6,sarima_p1_d0_q2_P0_D1_Q0_s24,s24,1,0,2,0,1,0,24,n,"(1, 0, 2, 0, 1, 0)",enhanced/post-hoc SARIMA robustness analysis
+7,sarima_p2_d0_q2_P0_D1_Q0_s24,s24,2,0,2,0,1,0,24,n,"(2, 0, 2, 0, 1, 0)",enhanced/post-hoc SARIMA robustness analysis
+8,sarima_p1_d0_q0_P1_D1_Q0_s24,s24,1,0,0,1,1,0,24,n,"(1, 0, 0, 1, 1, 0)",enhanced/post-hoc SARIMA robustness analysis
+9,sarima_p1_d0_q1_P1_D1_Q0_s24,s24,1,0,1,1,1,0,24,n,"(1, 0, 1, 1, 1, 0)",enhanced/post-hoc SARIMA robustness analysis
+10,sarima_p2_d0_q0_P1_D1_Q0_s24,s24,2,0,0,1,1,0,24,n,"(2, 0, 0, 1, 1, 0)",enhanced/post-hoc SARIMA robustness analysis
+11,sarima_p2_d0_q1_P1_D1_Q0_s24,s24,2,0,1,1,1,0,24,n,"(2, 0, 1, 1, 1, 0)",enhanced/post-hoc SARIMA robustness analysis
+12,sarima_p1_d0_q1_P0_D1_Q1_s24,s24,1,0,1,0,1,1,24,n,"(1, 0, 1, 0, 1, 1)",enhanced/post-hoc SARIMA robustness analysis
+13,sarima_p2_d0_q0_P0_D1_Q0_s168,s168_feasibility,2,0,0,0,1,0,168,n,"(2, 0, 0, 0, 1, 0)",enhanced/post-hoc SARIMA robustness analysis
+14,sarima_p1_d0_q1_P0_D1_Q0_s168,s168_feasibility,1,0,1,0,1,0,168,n,"(1, 0, 1, 0, 1, 0)",enhanced/post-hoc SARIMA robustness analysis

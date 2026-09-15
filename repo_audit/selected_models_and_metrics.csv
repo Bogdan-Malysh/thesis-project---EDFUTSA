@@ -1,0 +1,13 @@
+country,model_family,specification,mae,rmse,mape,coverage,selected_status,source_result_file
+Germany,baselines,Weekly seasonal naive,2656.1401912568303,4100.841117377879,5.140117743346067,1.0,selected (benchmark),results/baselines/tables/baseline_validation_2024.csv
+Germany,holt_winters,hw_mul_s168_damped,2173.8406156522165,3206.358528482075,4.203780569067333,1.0,selected (frozen),results/exponential_smoothing/holt_winters/validation_2024/holt_winters_validation_2024_summary.csv
+Germany,arima,arima_p2_d1_q2,7678.890647407404,8941.320074572499,15.419939748203284,1.0,selected (frozen),results/arima/validation_2024/full_validation/arima_validation_2024_summary.csv
+Germany,sarima,sarima_p2_d0_q0_P0_D1_Q0_s24,3886.4925410368737,5906.8090276537605,7.416201751018319,1.0,selected (frozen),results/arima_sarima/validation_2024/full_validation/sarima_validation_2024_summary.csv
+Germany,regression_arima_errors,reg_arima_h_d_m_hol,4405.788612552893,5811.031669133293,8.58284714226466,1.0,selected (frozen),results/regression_arima_errors/validation_2024/full_validation/regression_arima_errors_validation_2024_summary.csv
+Germany,regression_arima_errors_intervention,reg_arima_h_d_m_hol_crisis,4405.495456780948,5810.701637756052,8.58226304201277,1.0,selected (frozen),results/regression_arima_errors_intervention/validation_2024/full_validation/regression_arima_errors_intervention_validation_2024_summary.csv
+Austria,baselines,Weekly seasonal naive,409.3303734061931,611.4792179176994,6.059160420672384,1.0,selected (benchmark),results/baselines/tables/baseline_validation_2024.csv
+Austria,holt_winters,hw_mul_s168_damped,444.4679844845149,613.2590429433982,6.904340494415074,1.0,selected (frozen),results/exponential_smoothing/holt_winters/validation_2024/holt_winters_validation_2024_summary.csv
+Austria,arima,arima_p2_d1_q2,1037.6422688720838,1196.212732550512,16.0729765341845,1.0,selected (frozen),results/arima/validation_2024/full_validation/arima_validation_2024_summary.csv
+Austria,sarima,sarima_p1_d0_q1_P1_D1_Q0_s24,743.7670939247155,1021.3593328640624,11.214136890538096,1.0,selected (frozen),results/arima_sarima/validation_2024/full_validation/sarima_validation_2024_summary.csv
+Austria,regression_arima_errors,reg_arima_h_d_m_hol,743.7468520962873,979.1108407685956,11.517914840739063,1.0,selected (frozen),results/regression_arima_errors/validation_2024/full_validation/regression_arima_errors_validation_2024_summary.csv
+Austria,regression_arima_errors_intervention,reg_arima_h_d_m_hol_crisis,743.7043827404692,979.0567222331484,11.517287409357834,1.0,selected (frozen),results/regression_arima_errors_intervention/validation_2024/full_validation/regression_arima_errors_intervention_validation_2024_summary.csv

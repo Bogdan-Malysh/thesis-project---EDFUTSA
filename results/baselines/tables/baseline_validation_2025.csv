@@ -1,0 +1,3 @@
+country,model_family,specification_id,mae,rmse,mape,evaluated_observations,expected_observations,coverage,validation_days
+Germany,Weekly seasonal naive,Weekly seasonal naive,2615.772775114155,3945.1144422244442,4.987150680293287,8760,8760,1.0,365
+Austria,Weekly seasonal naive,Weekly seasonal naive,437.96211187214607,640.4071711088567,6.450407538645117,8760,8760,1.0,365

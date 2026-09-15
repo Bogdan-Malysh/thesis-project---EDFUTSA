@@ -1,0 +1,17 @@
+target_date,season,weekday,is_weekend,dst_period,analysis_label
+2024-01-15,winter,Monday,False,none,enhanced/post-hoc SARIMA robustness analysis
+2024-02-17,winter,Saturday,True,none,enhanced/post-hoc SARIMA robustness analysis
+2024-03-10,spring,Sunday,True,none,enhanced/post-hoc SARIMA robustness analysis
+2024-03-31,spring,Sunday,True,spring DST,enhanced/post-hoc SARIMA robustness analysis
+2024-04-15,spring,Monday,False,none,enhanced/post-hoc SARIMA robustness analysis
+2024-05-18,spring,Saturday,True,none,enhanced/post-hoc SARIMA robustness analysis
+2024-06-15,summer,Saturday,True,none,enhanced/post-hoc SARIMA robustness analysis
+2024-07-14,summer,Sunday,True,none,enhanced/post-hoc SARIMA robustness analysis
+2024-08-12,summer,Monday,False,none,enhanced/post-hoc SARIMA robustness analysis
+2024-09-21,autumn,Saturday,True,none,enhanced/post-hoc SARIMA robustness analysis
+2024-10-27,autumn,Sunday,True,autumn DST,enhanced/post-hoc SARIMA robustness analysis
+2024-11-11,autumn,Monday,False,none,enhanced/post-hoc SARIMA robustness analysis
+2024-11-23,autumn,Saturday,True,none,enhanced/post-hoc SARIMA robustness analysis
+2024-12-08,winter,Sunday,True,none,enhanced/post-hoc SARIMA robustness analysis
+2024-12-16,winter,Monday,False,none,enhanced/post-hoc SARIMA robustness analysis
+2024-12-27,winter,Friday,False,none,enhanced/post-hoc SARIMA robustness analysis

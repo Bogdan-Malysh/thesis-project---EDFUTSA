@@ -1,0 +1,11 @@
+country,branch,specification_id,p,d,q,trend,transform,expected_jobs,completed_jobs,failed_jobs,expected_dates,valid_dates,invalid_dates,unresolved_dates,expected_observations,evaluated_observations,coverage,mae,rmse,mape,verified_reuse_jobs
+Germany,weekly_differenced,weekly_differenced_arima_p1_d0_q1,1,0,1,c,weekly_difference,16,14,1,16,14,1,1,384,335,0.875,5333.300427781342,8059.146624074577,11.251516579078485,0
+Germany,weekly_differenced,weekly_differenced_arima_p2_d0_q0,2,0,0,c,weekly_difference,16,15,0,16,15,1,0,384,359,0.9375,5354.763104770505,7819.451446557714,11.254267755406765,0
+Germany,weekly_differenced,weekly_differenced_arima_p2_d0_q1,2,0,1,c,weekly_difference,16,14,1,16,14,1,1,384,335,0.875,5542.748645213078,8068.4821769027185,11.623167424898142,0
+Germany,weekly_differenced,weekly_differenced_arima_p2_d0_q2,2,0,2,c,weekly_difference,16,14,1,16,14,1,1,384,335,0.875,5539.9131783116445,8089.404237782319,11.62322553395472,0
+Germany,weekly_differenced,weekly_differenced_arima_p3_d0_q1,3,0,1,c,weekly_difference,16,11,4,16,11,1,4,384,264,0.6875,5570.082332586464,8689.500541408837,11.24812781161538,0
+Austria,weekly_differenced,weekly_differenced_arima_p1_d0_q1,1,0,1,c,weekly_difference,16,15,0,16,15,1,0,384,359,0.9375,721.6254258817527,1090.7685812299424,11.182815225354116,0
+Austria,weekly_differenced,weekly_differenced_arima_p2_d0_q0,2,0,0,c,weekly_difference,16,15,0,16,15,1,0,384,359,0.9375,759.0915080361681,1065.320885640842,11.543300259282578,0
+Austria,weekly_differenced,weekly_differenced_arima_p2_d0_q1,2,0,1,c,weekly_difference,16,14,1,16,14,1,1,384,335,0.875,781.472988621435,1095.8784933599918,11.893686570004967,0
+Austria,weekly_differenced,weekly_differenced_arima_p2_d0_q2,2,0,2,c,weekly_difference,16,14,1,16,14,1,1,384,335,0.875,777.6079848415059,1095.5218172077941,11.849921644030875,0
+Austria,weekly_differenced,weekly_differenced_arima_p3_d0_q1,3,0,1,c,weekly_difference,16,14,1,16,14,1,1,384,335,0.875,747.1727565244711,1094.385464399842,11.433402959252746,0

@@ -1,0 +1,9 @@
+country,branch,specification_id,valid_dates,invalid_dates,invalid_reasons,native_observations,native_coverage,native_mae,native_rmse,native_mape,coverage
+Germany,ordinary,enhanced_ordinary_arima_p1_d1_q2,366,0,,8784,1.0,9522.567729007817,11622.2066721782,19.839255842125045,1.0
+Germany,ordinary,enhanced_ordinary_arima_p1_d1_q1,366,0,,8784,1.0,9784.27458486796,11912.864815158098,20.36639462542426,1.0
+Germany,weekly_differenced,weekly_differenced_arima_p2_d0_q0,362,2,completed job metadata is invalid; missing_source,8687,0.9889571948998178,2135.189704256445,3387.7683050348132,4.126478994298493,0.9889571948998178
+Austria,ordinary,enhanced_ordinary_arima_p3_d1_q3,366,0,,8784,1.0,1038.3622218798218,1189.6920496661237,15.968425925655602,1.0
+Austria,ordinary,enhanced_ordinary_arima_p2_d1_q1,366,0,,8784,1.0,991.8940305857981,1229.4826585291514,15.356603619329254,1.0
+Austria,ordinary,enhanced_ordinary_arima_p3_d1_q1,366,0,,8784,1.0,1051.408109376992,1322.5802468832665,16.623567767366502,1.0
+Austria,weekly_differenced,weekly_differenced_arima_p1_d0_q1,362,2,completed job metadata is invalid; missing_source,8687,0.9889571948998178,384.845775505776,576.7838627739095,5.739283290623573,0.9889571948998178
+Austria,weekly_differenced,weekly_differenced_arima_p2_d0_q0,362,2,completed job metadata is invalid; missing_source,8687,0.9889571948998178,412.4421913826632,604.0258811064119,6.061513855492449,0.9889571948998178

@@ -1,0 +1,8 @@
+Element,Germany,Austria
+Forecast target,Hourly national electricity load,Hourly national electricity load
+Forecast origin,18:00 on the preceding day,08:00 on the preceding day
+Training period,2020-2023,2020-2023
+Validation period,2024,2024
+Test period,2025,2025
+Timestamp handling,"Preserve complete timestamps, including 23- and 25-hour daylight-saving days","Preserve complete timestamps, including 23- and 25-hour daylight-saving days"
+Information constraint,Only information available at the forecast origin may be used,Only information available at the forecast origin may be used

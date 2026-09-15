@@ -1,0 +1,120 @@
+{
+  "definitions": {
+    "is_covid_period": {
+      "start_local_date": "2020-03-11",
+      "end_local_date": "2023-05-05",
+      "inclusive": true
+    },
+    "is_post_invasion": {
+      "start_local_date": "2022-02-24",
+      "end_local_date": "available_dataset_end",
+      "inclusive": true
+    }
+  },
+  "official_sources": [
+    {
+      "institution": "World Health Organization",
+      "title": "WHO Director-General's opening remarks at the media briefing on COVID-19 - 11 March 2020",
+      "url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020",
+      "publication_date": "2020-03-11",
+      "automated_retrieval": {
+        "status": "retrieved",
+        "http_status": 200,
+        "final_url": "https://www.who.int/news-room/speeches/item/who-director-general-s-opening-remarks-at-the-media-briefing-on-covid-19---11-march-2020",
+        "checked_with": "curl -L",
+        "content_validated": true,
+        "limitation": null
+      }
+    },
+    {
+      "institution": "World Health Organization",
+      "title": "Statement on the fifteenth meeting of the IHR (2005) Emergency Committee on the COVID-19 pandemic",
+      "url": "https://www.who.int/news/item/05-05-2023-statement-on-the-fifteenth-meeting-of-the-international-health-regulations-%282005%29-emergency-committee-regarding-the-coronavirus-disease-%28covid-19%29-pandemic",
+      "publication_date": "2023-05-05",
+      "automated_retrieval": {
+        "status": "retrieved",
+        "http_status": 200,
+        "final_url": "https://www.who.int/news/item/05-05-2023-statement-on-the-fifteenth-meeting-of-the-international-health-regulations-%282005%29-emergency-committee-regarding-the-coronavirus-disease-%28covid-19%29-pandemic",
+        "checked_with": "curl -L",
+        "content_validated": true,
+        "limitation": null
+      }
+    },
+    {
+      "institution": "European Council",
+      "title": "Special meeting of the European Council, 24 February 2022",
+      "url": "https://www.consilium.europa.eu/en/meetings/european-council/2022/02/24/",
+      "publication_date": "2022-02-24",
+      "automated_retrieval": {
+        "status": "blocked",
+        "http_status": 403,
+        "final_url": "https://www.consilium.europa.eu/en/meetings/european-council/2022/02/24/",
+        "checked_with": "curl -L",
+        "content_validated": false,
+        "limitation": "Automated curl -L retrieval returned HTTP 403 Forbidden; the official page was not treated as content-validated and no source hash was generated."
+      }
+    },
+    {
+      "institution": "International Energy Agency",
+      "title": "World Energy Outlook 2022",
+      "url": "https://www.iea.org/reports/world-energy-outlook-2022",
+      "publication_date": "2022-10-27",
+      "automated_retrieval": {
+        "status": "retrieved",
+        "http_status": 200,
+        "final_url": "https://www.iea.org/reports/world-energy-outlook-2022",
+        "checked_with": "curl -L",
+        "content_validated": true,
+        "limitation": null
+      }
+    }
+  ],
+  "access_date": "2026-08-19",
+  "source_files": {
+    "Germany": {
+      "filename": "calendar_germany_hourly.csv",
+      "sha256_before": "cc634fb65efeecb29de54a0081b7e3023fad3b11820fb73669ec30ff61a3afc2",
+      "sha256_after": "cc634fb65efeecb29de54a0081b7e3023fad3b11820fb73669ec30ff61a3afc2"
+    },
+    "Austria": {
+      "filename": "calendar_austria_hourly.csv",
+      "sha256_before": "e5b97531129d53dd4a08003d82c257e09cd593bff09488960b21763a7a148d1b",
+      "sha256_after": "e5b97531129d53dd4a08003d82c257e09cd593bff09488960b21763a7a148d1b"
+    }
+  },
+  "output_files": {
+    "Germany": {
+      "filename": "crisis_germany_hourly.csv",
+      "sha256": "1c195ea638c95832196e6bde388035ea1b03a094b0afd78527505c4b6ff42d2b"
+    },
+    "Austria": {
+      "filename": "crisis_austria_hourly.csv",
+      "sha256": "1c195ea638c95832196e6bde388035ea1b03a094b0afd78527505c4b6ff42d2b"
+    }
+  },
+  "validation": {
+    "Germany": {
+      "country": "Germany",
+      "row_count": 52608,
+      "timestamp_utc_unique": true,
+      "timestamp_utc_hourly_continuous": true,
+      "timestamp_local_offset_count": 2,
+      "missing_value_count": 0,
+      "covid_period_hours": 27623,
+      "post_invasion_hours": 33768,
+      "overlap_hours": 10463
+    },
+    "Austria": {
+      "country": "Austria",
+      "row_count": 52608,
+      "timestamp_utc_unique": true,
+      "timestamp_utc_hourly_continuous": true,
+      "timestamp_local_offset_count": 2,
+      "missing_value_count": 0,
+      "covid_period_hours": 27623,
+      "post_invasion_hours": 33768,
+      "overlap_hours": 10463
+    }
+  },
+  "summary_file_sha256": "dc4f4e9a386e993b633137ece589b96634cb972c9b4ac4e7fcb091e362055813"
+}

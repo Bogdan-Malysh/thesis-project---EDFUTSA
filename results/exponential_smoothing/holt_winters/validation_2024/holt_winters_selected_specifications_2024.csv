@@ -1,0 +1,3 @@
+country,specification_id,specification_order,expected_jobs,completed_jobs,failed_jobs,expected_observations,evaluated_observations,coverage,rmse,mae,mape,coverage_eligible
+Austria,hw_mul_s168_damped,7,366,366,0,8784,8784,1.0,613.2590429433982,444.4679844845149,6.904340494415074,True
+Germany,hw_mul_s168_damped,7,366,366,0,8784,8784,1.0,3206.358528482075,2173.8406156522165,4.203780569067333,True

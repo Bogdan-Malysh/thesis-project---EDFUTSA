@@ -1,0 +1,5 @@
+country,branch,target_date,target_timestamp_utc,affected_timestamp_utc,source_key,source_local_key,source_timestamp_utc,reason,source_row_count,coverage
+Germany,weekly_differenced,2025-04-06,2025-04-06 00:00:00+00:00,2025-04-06 00:00:00+00:00,"('2025-03-30', 2, 0)","('2025-03-30', 2, 0)",,missing_source,0,0.9583333333333334
+Germany,weekly_differenced,2025-10-26,2025-10-26 01:00:00+00:00,2025-10-26 01:00:00+00:00,"('2025-10-19', 2, 1)","('2025-10-19', 2, 1)",,missing_source,0,0.96
+Austria,weekly_differenced,2025-04-06,2025-04-06 00:00:00+00:00,2025-04-06 00:00:00+00:00,"('2025-03-30', 2, 0)","('2025-03-30', 2, 0)",,missing_source,0,0.9583333333333334
+Austria,weekly_differenced,2025-10-26,2025-10-26 01:00:00+00:00,2025-10-26 01:00:00+00:00,"('2025-10-19', 2, 1)","('2025-10-19', 2, 1)",,missing_source,0,0.96

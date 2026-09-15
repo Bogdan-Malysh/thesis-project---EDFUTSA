@@ -1,0 +1,5 @@
+country,specification_id,specification_order,expected_jobs,completed_jobs,failed_jobs,expected_observations,evaluated_observations,coverage,coverage_eligible,mae,rmse,mape
+Germany,sarima_p2_d0_q0_P0_D1_Q0_s24,5,3,3,0,72,72,1.0,True,4243.288284849175,5887.602135284142,10.47247851070357
+Germany,sarima_p1_d1_q1_P0_D0_Q1_s24,12,3,3,0,72,72,1.0,True,12178.098426412766,14431.244515733524,29.224847251554674
+Austria,sarima_p1_d0_q1_P1_D1_Q0_s24,11,3,3,0,72,72,1.0,True,420.9466469381318,562.2308849700867,7.394487777924379
+Austria,sarima_p1_d1_q1_P0_D0_Q1_s24,12,3,3,0,72,72,1.0,True,1251.9462272906858,1668.1713548951589,18.942838899503517

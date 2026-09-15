@@ -1,0 +1,3 @@
+country,model_family,specification_id,expected_jobs,completed_jobs,failed_jobs,expected_observations,evaluated_observations,coverage,mae,rmse,mape
+Austria,regression_arima_errors_intervention,reg_arima_h_d_m_hol_crisis,3,3,0,72,72,1.0,619.5866541563714,745.6807551430813,10.572436900408572
+Germany,regression_arima_errors_intervention,reg_arima_h_d_m_hol_crisis,3,3,0,72,72,1.0,4941.244308948221,6625.685550790384,11.99512936655104

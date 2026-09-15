@@ -1,0 +1,3 @@
+country,specification_order,specification_id,exog_columns
+Germany,1,sarima_p2_d0_q0_P0_D1_Q0_s24_crisis,"[""is_covid_period"", ""is_post_invasion""]"
+Austria,1,sarima_p1_d0_q1_P1_D1_Q0_s24_crisis,"[""is_covid_period"", ""is_post_invasion""]"

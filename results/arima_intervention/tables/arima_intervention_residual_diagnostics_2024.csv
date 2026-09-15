@@ -1,0 +1,3 @@
+country,jobs,mean_residual_n_effective,acf_flagged_jobs,ljung_box_significant_jobs_alpha_0_01,residual_warning_jobs,mean_ljung_box_pvalue_lag_24,mean_ljung_box_pvalue_lag_48
+Germany,366,39413.42622950819,366,366,366,0.0,0.0
+Austria,366,39403.42622950819,366,366,366,0.0,0.0

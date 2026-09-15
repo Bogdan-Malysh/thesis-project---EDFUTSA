@@ -1,0 +1,113 @@
+{
+  "holiday_package": "holidays",
+  "holiday_package_version": "0.103",
+  "holiday_category": "PUBLIC",
+  "observed_dates": false,
+  "subdivision": null,
+  "official_sources": {
+    "Germany": {
+      "name": "Federal Ministry of the Interior, nationwide public holidays",
+      "url": "https://www.bmi.bund.de/DE/themen/verfassung/staatliche-symbole/feiertage/feiertage-node.html"
+    },
+    "Austria": {
+      "name": "RIS Feiertagsruhegesetz 1957, Art. 1 Section 1",
+      "url": "https://www.ris.bka.gv.at/eli/bgbl/1957/153/A1P1/NOR40213432"
+    }
+  },
+  "source_files": {
+    "Germany": {
+      "filename": "smard_germany_hourly.csv",
+      "sha256_before": "c4d1b2926a5203ab1502ee86e2a0725f0f70964bcfb4f502de60cd9fa96270ee",
+      "sha256_after": "c4d1b2926a5203ab1502ee86e2a0725f0f70964bcfb4f502de60cd9fa96270ee"
+    },
+    "Austria": {
+      "filename": "smard_austria_hourly.csv",
+      "sha256_before": "00c03d42fa28141782509fbcefe14b51f1d31a7090fc06b83f2ff517780467cf",
+      "sha256_after": "00c03d42fa28141782509fbcefe14b51f1d31a7090fc06b83f2ff517780467cf"
+    }
+  },
+  "output_files": {
+    "Germany": {
+      "filename": "calendar_germany_hourly.csv",
+      "sha256": "cc634fb65efeecb29de54a0081b7e3023fad3b11820fb73669ec30ff61a3afc2"
+    },
+    "Austria": {
+      "filename": "calendar_austria_hourly.csv",
+      "sha256": "e5b97531129d53dd4a08003d82c257e09cd593bff09488960b21763a7a148d1b"
+    }
+  },
+  "validation": {
+    "Germany": {
+      "country": "Germany",
+      "row_count": 52608,
+      "timestamp_utc_unique": true,
+      "timestamp_utc_hourly_continuous": true,
+      "timestamp_local_offset_preserved": true,
+      "autumn_repeated_local_rows": 12,
+      "missing_feature_count": 0,
+      "holiday_summary": {
+        "2020": {
+          "holiday_date_count": 9,
+          "holiday_hour_observation_count": 216
+        },
+        "2021": {
+          "holiday_date_count": 9,
+          "holiday_hour_observation_count": 216
+        },
+        "2022": {
+          "holiday_date_count": 9,
+          "holiday_hour_observation_count": 216
+        },
+        "2023": {
+          "holiday_date_count": 9,
+          "holiday_hour_observation_count": 216
+        },
+        "2024": {
+          "holiday_date_count": 9,
+          "holiday_hour_observation_count": 216
+        },
+        "2025": {
+          "holiday_date_count": 9,
+          "holiday_hour_observation_count": 216
+        }
+      }
+    },
+    "Austria": {
+      "country": "Austria",
+      "row_count": 52608,
+      "timestamp_utc_unique": true,
+      "timestamp_utc_hourly_continuous": true,
+      "timestamp_local_offset_preserved": true,
+      "autumn_repeated_local_rows": 12,
+      "missing_feature_count": 0,
+      "holiday_summary": {
+        "2020": {
+          "holiday_date_count": 13,
+          "holiday_hour_observation_count": 312
+        },
+        "2021": {
+          "holiday_date_count": 13,
+          "holiday_hour_observation_count": 312
+        },
+        "2022": {
+          "holiday_date_count": 13,
+          "holiday_hour_observation_count": 312
+        },
+        "2023": {
+          "holiday_date_count": 13,
+          "holiday_hour_observation_count": 312
+        },
+        "2024": {
+          "holiday_date_count": 13,
+          "holiday_hour_observation_count": 312
+        },
+        "2025": {
+          "holiday_date_count": 13,
+          "holiday_hour_observation_count": 313
+        }
+      }
+    }
+  },
+  "generated_at_utc": "2026-08-19T10:26:56.042920+00:00",
+  "summary_file_sha256": "d90a8f6f8e198f07e28e6f1427cc3d16fe5c48d8937472157fd7907ce112bf27"
+}

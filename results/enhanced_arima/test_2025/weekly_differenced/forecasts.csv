@@ -1,0 +1,1 @@
+country,model_family,target_date,branch,specification_id,forecast_origin_local,forecast_origin_utc,information_cutoff_utc,timestamp_utc,interval_end_utc,timestamp_local,local_date,actual_load_mwh,forecast_mwh,bridge_used,source_timestamp_utc,source_actual_mwh,source_kind,is_target_day,evaluated,status,mapping_issue_count

@@ -1,0 +1,3 @@
+country,selected_specification_id,selection_rank,mae,rmse,mape,expected_jobs,completed_jobs,failed_jobs,coverage,selection_rule
+Germany,arima_p2_d1_q2,1,7678.890647,8941.320075,15.419940,366,366,0,1.0,aggregate MAE then RMSE then MAPE then frozen specification order
+Austria,arima_p2_d1_q2,1,1037.642269,1196.212733,16.072977,366,366,0,1.0,aggregate MAE then RMSE then MAPE then frozen specification order

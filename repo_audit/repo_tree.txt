@@ -1,0 +1,551 @@
+electricity-demand-thesis/
+|-- code/
+|   |-- 01_data_audit/
+|   |   |-- audit_data.py
+|   |   |-- load_smard.py
+|   |   |-- test_audit_data.py
+|   |   `-- test_load_smard.py
+|   |-- 02_preprocessing/
+|   |   |-- apg_hourly.py
+|   |   |-- calendar_features.py
+|   |   |-- chapter4_figures.py
+|   |   |-- compare_apg_smard.py
+|   |   |-- crisis_features.py
+|   |   |-- modelling_datasets.py
+|   |   |-- smard_hourly.py
+|   |   |-- temperature_pipeline.py
+|   |   |-- test_apg_hourly.py
+|   |   |-- test_calendar_features.py
+|   |   |-- test_compare_apg_smard.py
+|   |   |-- test_crisis_features.py
+|   |   |-- test_modelling_datasets.py
+|   |   |-- test_smard_hourly.py
+|   |   `-- test_temperature_pipeline.py
+|   |-- 03_exploratory_analysis/
+|   |   |-- section_5_1.py
+|   |   |-- section_5_2.py
+|   |   |-- section_5_2_daily_weekly.py
+|   |   |-- section_5_3_monthly_annual.py
+|   |   |-- section_5_4_temperature_public_holidays.py
+|   |   |-- section_5_5_crisis_policy_periods.py
+|   |   |-- test_section_5_1.py
+|   |   |-- test_section_5_2.py
+|   |   |-- test_section_5_2_daily_weekly.py
+|   |   |-- test_section_5_3_monthly_annual.py
+|   |   |-- test_section_5_4_temperature_public_holidays.py
+|   |   `-- test_section_5_5_crisis_policy_periods.py
+|   |-- 03_visualization/
+|   |   |-- dwd_station_validation.py
+|   |   |-- temperature_population_map.py
+|   |   |-- test_dwd_station_validation.py
+|   |   `-- test_temperature_population_map.py
+|   |-- 04_models/
+|   |   |-- arima/
+|   |   |   |-- arima_models.py
+|   |   |   |-- arima_screening.py
+|   |   |   |-- arima_validation_2024.py
+|   |   |   |-- test_arima_models.py
+|   |   |   |-- test_arima_screening.py
+|   |   |   `-- test_arima_validation_2024.py
+|   |   |-- baselines/
+|   |   |   |-- baseline_validation_2024.py
+|   |   |   `-- test_baseline_validation.py
+|   |   |-- common/
+|   |   |   |-- build_model_validation_summaries.py
+|   |   |   |-- forecasting_framework.py
+|   |   |   |-- test_build_model_validation_summaries.py
+|   |   |   `-- test_forecasting_framework.py
+|   |   |-- exponential_smoothing/
+|   |   |   |-- holt_winters_models.py
+|   |   |   |-- holt_winters_phase2a.py
+|   |   |   |-- holt_winters_validation_2024.py
+|   |   |   |-- test_holt_winters_models.py
+|   |   |   |-- test_holt_winters_phase2a.py
+|   |   |   `-- test_holt_winters_validation_2024.py
+|   |   |-- regression_arima_errors/
+|   |   |   |-- regression_arima_errors_intervention_validation_2024.py
+|   |   |   |-- regression_arima_errors_models.py
+|   |   |   |-- regression_arima_errors_validation_2024.py
+|   |   |   |-- test_regression_arima_errors_intervention_validation_2024.py
+|   |   |   |-- test_regression_arima_errors_models.py
+|   |   |   `-- test_regression_arima_errors_validation_2024.py
+|   |   |-- sarima/
+|   |   |   |-- benchmark_sarimax_fit_2024.py
+|   |   |   |-- benchmark_sarimax_fit_continuation_2024.py
+|   |   |   |-- benchmark_sarimax_fit_final_2024.py
+|   |   |   |-- sarima_models.py
+|   |   |   |-- sarima_screening.py
+|   |   |   |-- sarima_validation_2024.py
+|   |   |   |-- sarimax_models.py
+|   |   |   |-- sarimax_state_mini_four_workers_2024.py
+|   |   |   |-- sarimax_state_update.py
+|   |   |   |-- sarimax_state_validation_2024.py
+|   |   |   |-- sarimax_validation_2024.py
+|   |   |   |-- test_sarima_models.py
+|   |   |   |-- test_sarima_screening.py
+|   |   |   |-- test_sarima_validation_2024.py
+|   |   |   |-- test_sarimax_models.py
+|   |   |   |-- test_sarimax_state_update_2024.py
+|   |   |   `-- test_sarimax_validation_2024.py
+|   |   `-- sarimax/
+|   |-- 05_validation/
+|   |-- 06_methodology/
+|   |   `-- chapter6_visuals.py
+|   |-- 06_model_comparison/
+|   `-- 07_forecasting_results/
+|-- data/
+|   |-- processed/
+|   |   |-- apg_austria_hourly.csv
+|   |   |-- calendar_austria_hourly.csv
+|   |   |-- calendar_germany_hourly.csv
+|   |   |-- crisis_austria_hourly.csv
+|   |   |-- crisis_germany_hourly.csv
+|   |   |-- modelling_austria_hourly.csv
+|   |   |-- modelling_germany_hourly.csv
+|   |   |-- smard_austria_hourly.csv
+|   |   |-- smard_germany_hourly.csv
+|   |   |-- temperature_austria_hourly.csv
+|   |   `-- temperature_germany_hourly.csv
+|   |-- raw/
+|   |   |-- apg/
+|   |   |   |-- apg_austria_actual_2020_15min.csv
+|   |   |   |-- apg_austria_actual_2021_15min.csv
+|   |   |   |-- apg_austria_actual_2022_15min.csv
+|   |   |   |-- apg_austria_forecasted_2020_15min.csv
+|   |   |   |-- apg_austria_forecasted_2021_15min.csv
+|   |   |   `-- apg_austria_forecasted_2022_15min.csv
+|   |   |-- era5_land/
+|   |   |   |-- era5_land_2019_boundary.nc
+|   |   |   |-- era5_land_2020_01.nc
+|   |   |   |-- era5_land_2020_02.nc
+|   |   |   |-- era5_land_2020_03.nc
+|   |   |   |-- era5_land_2020_04.nc
+|   |   |   |-- era5_land_2020_05.nc
+|   |   |   |-- era5_land_2020_06.nc
+|   |   |   |-- era5_land_2020_07.nc
+|   |   |   |-- era5_land_2020_08.nc
+|   |   |   |-- era5_land_2020_09.nc
+|   |   |   |-- era5_land_2020_10.nc
+|   |   |   |-- era5_land_2020_11.nc
+|   |   |   |-- era5_land_2020_12.nc
+|   |   |   |-- era5_land_2021_01.nc
+|   |   |   |-- era5_land_2021_02.nc
+|   |   |   |-- era5_land_2021_03.nc
+|   |   |   |-- era5_land_2021_04.nc
+|   |   |   |-- era5_land_2021_05.nc
+|   |   |   |-- era5_land_2021_06.nc
+|   |   |   |-- era5_land_2021_07.nc
+|   |   |   |-- era5_land_2021_08.nc
+|   |   |   |-- era5_land_2021_09.nc
+|   |   |   |-- era5_land_2021_10.nc
+|   |   |   |-- era5_land_2021_11.nc
+|   |   |   |-- era5_land_2021_12.nc
+|   |   |   |-- era5_land_2022_01.nc
+|   |   |   |-- era5_land_2022_02.nc
+|   |   |   |-- era5_land_2022_03.nc
+|   |   |   |-- era5_land_2022_04.nc
+|   |   |   |-- era5_land_2022_05.nc
+|   |   |   |-- era5_land_2022_06.nc
+|   |   |   |-- era5_land_2022_07.nc
+|   |   |   |-- era5_land_2022_08.nc
+|   |   |   |-- era5_land_2022_09.nc
+|   |   |   |-- era5_land_2022_10.nc
+|   |   |   |-- era5_land_2022_11.nc
+|   |   |   |-- era5_land_2022_12.nc
+|   |   |   |-- era5_land_2023_01.nc
+|   |   |   |-- era5_land_2023_02.nc
+|   |   |   |-- era5_land_2023_03.nc
+|   |   |   |-- era5_land_2023_04.nc
+|   |   |   |-- era5_land_2023_05.nc
+|   |   |   |-- era5_land_2023_06.nc
+|   |   |   |-- era5_land_2023_07.nc
+|   |   |   |-- era5_land_2023_08.nc
+|   |   |   |-- era5_land_2023_09.nc
+|   |   |   |-- era5_land_2023_10.nc
+|   |   |   |-- era5_land_2023_11.nc
+|   |   |   |-- era5_land_2023_12.nc
+|   |   |   |-- era5_land_2024_01.nc
+|   |   |   |-- era5_land_2024_02.nc
+|   |   |   |-- era5_land_2024_03.nc
+|   |   |   |-- era5_land_2024_04.nc
+|   |   |   |-- era5_land_2024_05.nc
+|   |   |   |-- era5_land_2024_06.nc
+|   |   |   |-- era5_land_2024_07.nc
+|   |   |   |-- era5_land_2024_08.nc
+|   |   |   |-- era5_land_2024_09.nc
+|   |   |   |-- era5_land_2024_10.nc
+|   |   |   |-- era5_land_2024_11.nc
+|   |   |   |-- era5_land_2024_12.nc
+|   |   |   |-- era5_land_2025_01.nc
+|   |   |   |-- era5_land_2025_02.nc
+|   |   |   |-- era5_land_2025_03.nc
+|   |   |   |-- era5_land_2025_04.nc
+|   |   |   |-- era5_land_2025_05.nc
+|   |   |   |-- era5_land_2025_06.nc
+|   |   |   |-- era5_land_2025_07.nc
+|   |   |   |-- era5_land_2025_08.nc
+|   |   |   |-- era5_land_2025_09.nc
+|   |   |   |-- era5_land_2025_10.nc
+|   |   |   |-- era5_land_2025_11.nc
+|   |   |   |-- era5_land_2025_12.nc
+|   |   |   `-- metadata.json
+|   |   |-- eurostat_population/
+|   |   |   |-- Eurostat_Census-GRID_2021_V3.zip
+|   |   |   `-- metadata.json
+|   |   |-- gisco_boundaries/
+|   |   |   |-- CNTR_RG_01M_2024_4326.geojson
+|   |   |   `-- metadata.json
+|   |   |-- smard/
+|   |   |   |-- smard_austria_actual.csv
+|   |   |   |-- smard_austria_forecasted.csv
+|   |   |   |-- smard_germany_actual.csv
+|   |   |   `-- smard_germany_forecasted.csv
+|   |   `-- README.md
+|   `-- validation/
+|       |-- calendar_feature_metadata.json
+|       |-- calendar_holiday_summary.csv
+|       |-- crisis_feature_metadata.json
+|       |-- crisis_feature_summary.csv
+|       |-- dwd_era5_station_comparison_2021-02-13_0600.csv
+|       `-- dwd_era5_station_comparison_metadata.json
+|-- docs/
+|   |-- superpowers/
+|   |   |-- plans/
+|   |   |   |-- 2026-08-18-smard-data-audit.md
+|   |   |   |-- 2026-08-18-temperature-pipeline.md
+|   |   |   |-- 2026-08-19-calendar-features.md
+|   |   |   |-- 2026-08-19-crisis-features.md
+|   |   |   |-- 2026-08-19-modelling-datasets.md
+|   |   |   |-- 2026-08-19-temperature-population-map.md
+|   |   |   |-- 2026-08-24-section-5-1.md
+|   |   |   |-- 2026-08-24-section-5-2-daily-weekly.md
+|   |   |   |-- 2026-08-24-section-5-2-figures.md
+|   |   |   |-- 2026-08-24-section-5-2.md
+|   |   |   |-- 2026-08-25-section-5-3-monthly-annual.md
+|   |   |   |-- 2026-08-25-section-5-4-temperature-holidays.md
+|   |   |   |-- 2026-09-04-holt-winters-phase-2a.md
+|   |   |   |-- 2026-09-05-forecasting-family-reorganization.md
+|   |   |   |-- 2026-09-05-holt-winters-2024-resumable-validation.md
+|   |   |   |-- 2026-09-06-arima-screening-and-benchmarking.md
+|   |   |   |-- 2026-09-06-central-model-validation-summaries.md
+|   |   |   |-- 2026-09-06-sarima-screening-and-validation.md
+|   |   |   `-- 2026-09-08-sarimax-computational-fix.md
+|   |   `-- specs/
+|   |       |-- 2026-08-18-smard-data-audit-design.md
+|   |       |-- 2026-08-18-temperature-pipeline-design.md
+|   |       |-- 2026-08-19-calendar-feature-design.md
+|   |       |-- 2026-08-19-crisis-feature-design.md
+|   |       |-- 2026-08-19-temperature-population-map-design.md
+|   |       |-- 2026-09-04-holt-winters-phase-2a-design.md
+|   |       |-- 2026-09-05-forecasting-family-reorganization-design.md
+|   |       |-- 2026-09-05-holt-winters-2024-resumable-validation-design.md
+|   |       |-- 2026-09-06-arima-screening-design.md
+|   |       |-- 2026-09-06-sarima-screening-design.md
+|   |       `-- 2026-09-08-sarimax-computational-fix-design.md
+|   |-- chapter6.pdf
+|   `-- temperature_data.md
+|-- outputs/
+|   `-- chapter5/
+|       |-- section_5_1/
+|       |   |-- annual_load_summary.csv
+|       |   |-- figure_5_1_grid_load_development.pdf
+|       |   |-- figure_5_1_grid_load_development.png
+|       |   `-- table_5_1_descriptive_statistics.csv
+|       |-- section_5_2/
+|       |   |-- day_of_week_summary.csv
+|       |   |-- figure_5_2_hourly_demand_patterns.pdf
+|       |   |-- figure_5_2_hourly_demand_patterns.png
+|       |   |-- figure_5_3_daily_demand_patterns.pdf
+|       |   |-- figure_5_3_daily_demand_patterns.png
+|       |   |-- figure_5_4_weekly_demand_patterns.pdf
+|       |   |-- figure_5_4_weekly_demand_patterns.png
+|       |   |-- hourly_demand_profile.csv
+|       |   `-- weekly_hourly_profile.csv
+|       |-- section_5_3/
+|       |   |-- figure_5_5_monthly_demand_patterns.pdf
+|       |   |-- figure_5_5_monthly_demand_patterns.png
+|       |   |-- figure_5_6_year_month_heatmap.pdf
+|       |   |-- figure_5_6_year_month_heatmap.png
+|       |   |-- monthly_demand_profile.csv
+|       |   `-- year_month_summary.csv
+|       |-- section_5_4/
+|       |   |-- daily_temperature_public_holidays.csv
+|       |   |-- figure_5_7_temperature_load_relationship.pdf
+|       |   |-- figure_5_7_temperature_load_relationship.png
+|       |   |-- figure_5_8_public_holiday_effect.pdf
+|       |   |-- figure_5_8_public_holiday_effect.png
+|       |   |-- public_holiday_effect_summary.csv
+|       |   `-- temperature_bin_summary.csv
+|       `-- section_5_5/
+|           |-- covid19_daily_deviations.csv
+|           |-- covid19_period_summary.csv
+|           |-- figure_5_10_post_invasion_fingerprint.pdf
+|           |-- figure_5_10_post_invasion_fingerprint.png
+|           |-- figure_5_9_covid19_event_strip.pdf
+|           |-- figure_5_9_covid19_event_strip.png
+|           |-- post_invasion_monthly_deviations.csv
+|           `-- post_invasion_period_summary.csv
+|-- repo_audit/
+|   |-- data_inventory.csv
+|   |-- model_status.md
+|   |-- official_benchmark_inventory.md
+|   |-- repo_audit.md
+|   |-- repo_tree.txt
+|   |-- results_inventory.csv
+|   |-- selected_models_and_metrics.csv
+|   `-- tests_and_runtime.md
+|-- results/
+|   |-- arima/
+|   |   |-- tables/
+|   |   |   |-- arima_acf_pacf_training_2024.csv
+|   |   |   |-- arima_candidate_screening_training_2024.csv
+|   |   |   |-- arima_differencing_diagnostics_2024.csv
+|   |   |   |-- arima_residual_diagnostics_training_2024.csv
+|   |   |   |-- arima_selected_2024.csv
+|   |   |   `-- arima_shortlists_2024.csv
+|   |   `-- validation_2024/
+|   |       |-- benchmark_threads_1_workers_4/
+|   |       |   |-- arima_validation_2024_forecasts.csv
+|   |       |   |-- arima_validation_2024_jobs.csv
+|   |       |   `-- arima_validation_2024_summary.csv
+|   |       |-- benchmark_workers_1/
+|   |       |   |-- arima_validation_2024_forecasts.csv
+|   |       |   |-- arima_validation_2024_jobs.csv
+|   |       |   `-- arima_validation_2024_summary.csv
+|   |       |-- benchmark_workers_2/
+|   |       |   |-- arima_validation_2024_forecasts.csv
+|   |       |   |-- arima_validation_2024_jobs.csv
+|   |       |   `-- arima_validation_2024_summary.csv
+|   |       |-- benchmark_workers_3/
+|   |       |   |-- arima_validation_2024_forecasts.csv
+|   |       |   |-- arima_validation_2024_jobs.csv
+|   |       |   `-- arima_validation_2024_summary.csv
+|   |       |-- benchmark_workers_4/
+|   |       |   |-- arima_validation_2024_forecasts.csv
+|   |       |   |-- arima_validation_2024_jobs.csv
+|   |       |   `-- arima_validation_2024_summary.csv
+|   |       |-- full_validation/
+|   |       |   |-- arima_validation_2024_forecasts.csv
+|   |       |   |-- arima_validation_2024_jobs.csv
+|   |       |   `-- arima_validation_2024_summary.csv
+|   |       `-- mini_validation/
+|   |           |-- arima_validation_2024_forecasts.csv
+|   |           |-- arima_validation_2024_jobs.csv
+|   |           `-- arima_validation_2024_summary.csv
+|   |-- arima_sarima/
+|   |   |-- tables/
+|   |   |   |-- sarima_candidate_screening_training_2024.csv
+|   |   |   |-- sarima_candidate_screening_training_2024_revised.csv
+|   |   |   |-- sarima_differencing_diagnostics_2024.csv
+|   |   |   |-- sarima_residual_diagnostics_training_2024.csv
+|   |   |   |-- sarima_selected_2024.csv
+|   |   |   `-- sarima_shortlists_2024.csv
+|   |   `-- validation_2024/
+|   |       |-- benchmark_workers_1/
+|   |       |   |-- sarima_validation_2024_diagnostics.csv
+|   |       |   |-- sarima_validation_2024_forecasts.csv
+|   |       |   |-- sarima_validation_2024_jobs.csv
+|   |       |   `-- sarima_validation_2024_summary.csv
+|   |       |-- benchmark_workers_2/
+|   |       |   |-- sarima_validation_2024_diagnostics.csv
+|   |       |   |-- sarima_validation_2024_forecasts.csv
+|   |       |   |-- sarima_validation_2024_jobs.csv
+|   |       |   `-- sarima_validation_2024_summary.csv
+|   |       |-- benchmark_workers_3/
+|   |       |   |-- sarima_validation_2024_diagnostics.csv
+|   |       |   |-- sarima_validation_2024_forecasts.csv
+|   |       |   |-- sarima_validation_2024_jobs.csv
+|   |       |   `-- sarima_validation_2024_summary.csv
+|   |       |-- benchmark_workers_4/
+|   |       |   |-- sarima_validation_2024_diagnostics.csv
+|   |       |   |-- sarima_validation_2024_forecasts.csv
+|   |       |   |-- sarima_validation_2024_jobs.csv
+|   |       |   `-- sarima_validation_2024_summary.csv
+|   |       |-- full_validation/
+|   |       |   |-- sarima_validation_2024_diagnostics.csv
+|   |       |   |-- sarima_validation_2024_forecasts.csv
+|   |       |   |-- sarima_validation_2024_jobs.csv
+|   |       |   `-- sarima_validation_2024_summary.csv
+|   |       `-- mini_validation/
+|   |           |-- sarima_validation_2024_diagnostics.csv
+|   |           |-- sarima_validation_2024_forecasts.csv
+|   |           |-- sarima_validation_2024_jobs.csv
+|   |           `-- sarima_validation_2024_summary.csv
+|   |-- arima_sarimax/
+|   |   `-- validation_2024/
+|   |       |-- fixed_state_mini/
+|   |       |   |-- sarimax_fixed_state_specifications_2024.csv
+|   |       |   `-- sarimax_fixed_state_validation_2024_summary.csv
+|   |       |-- fixed_state_mini_four_workers/
+|   |       |   `-- sarimax_fixed_state_specifications_2024.csv
+|   |       |-- mini_validation/
+|   |       |   |-- sarimax_specifications_2024.csv
+|   |       |   `-- sarimax_validation_2024_summary.csv
+|   |       |-- sarimax_fixed_state_runtime_segments.jsonl
+|   |       |-- sarimax_full_fit_benchmark.json
+|   |       |-- sarimax_full_fit_continuation_benchmark.json
+|   |       |-- sarimax_full_fit_final_benchmark.json
+|   |       |-- sarimax_full_fit_final_parameter_vector.json
+|   |       |-- sarimax_full_fit_progress.json
+|   |       `-- sarimax_runtime_segments.jsonl
+|   |-- baselines/
+|   |   |-- forecasts/
+|   |   |   `-- baseline_forecasts_2024.csv
+|   |   `-- tables/
+|   |       |-- baseline_validation_2024.csv
+|   |       `-- validation_failures.csv
+|   |-- exponential_smoothing/
+|   |   `-- holt_winters/
+|   |       |-- benchmark_2024_workers_1/
+|   |       |   |-- holt_winters_validation_2024_forecasts.csv
+|   |       |   |-- holt_winters_validation_2024_jobs.csv
+|   |       |   `-- holt_winters_validation_2024_summary.csv
+|   |       |-- benchmark_2024_workers_2/
+|   |       |   |-- holt_winters_validation_2024_forecasts.csv
+|   |       |   |-- holt_winters_validation_2024_jobs.csv
+|   |       |   `-- holt_winters_validation_2024_summary.csv
+|   |       |-- benchmark_2024_workers_4/
+|   |       |   |-- holt_winters_validation_2024_forecasts.csv
+|   |       |   |-- holt_winters_validation_2024_jobs.csv
+|   |       |   `-- holt_winters_validation_2024_summary.csv
+|   |       |-- forecasts/
+|   |       |-- mini_validation_2024/
+|   |       |   |-- holt_winters_validation_2024_forecasts.csv
+|   |       |   |-- holt_winters_validation_2024_jobs.csv
+|   |       |   `-- holt_winters_validation_2024_summary.csv
+|   |       |-- tables/
+|   |       |   |-- holt_winters_optimizer_attempts_2024.csv
+|   |       |   |-- holt_winters_screening_2024.csv
+|   |       |   `-- holt_winters_shortlists_2024.csv
+|   |       `-- validation_2024/
+|   |           |-- full_validation_stderr.log
+|   |           |-- full_validation_stdout.log
+|   |           |-- holt_winters_selected_specifications_2024.csv
+|   |           |-- holt_winters_validation_2024_forecasts.csv
+|   |           |-- holt_winters_validation_2024_jobs.csv
+|   |           |-- holt_winters_validation_2024_summary.csv
+|   |           |-- resume2_validation_stderr.log
+|   |           |-- resume2_validation_stdout.log
+|   |           |-- resume_validation_stderr.log
+|   |           `-- resume_validation_stdout.log
+|   |-- figures/
+|   |   |-- chapter4_apg_resolution_example.png
+|   |   |-- chapter4_apg_resolution_example.svg
+|   |   |-- chapter4_data_coverage.png
+|   |   |-- chapter4_data_coverage.svg
+|   |   |-- chapter4_smard_week_example.png
+|   |   |-- chapter4_smard_week_example.svg
+|   |   |-- figure_6_1_rolling_day_ahead_forecasting.png
+|   |   `-- temperature_population_cold_hour.png
+|   |-- forecasts/
+|   |-- regression_arima_errors/
+|   |   |-- diagnostics/
+|   |   |   |-- forecast_sanity_alignment_2024_mini.csv
+|   |   |   |-- forecast_sanity_austria_2024-02-15.png
+|   |   |   |-- forecast_sanity_germany_2024-10-27.png
+|   |   |   |-- forecast_sanity_metrics_2024_mini.csv
+|   |   |   `-- regression_forecast_sanity_2024_mini.csv
+|   |   |-- tables/
+|   |   |   `-- regression_arima_errors_selected_2024.csv
+|   |   `-- validation_2024/
+|   |       |-- benchmark_bounded_workers_1/
+|   |       |   |-- regression_arima_errors_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_validation_2024_summary.csv
+|   |       |-- benchmark_bounded_workers_2/
+|   |       |   |-- regression_arima_errors_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_validation_2024_summary.csv
+|   |       |-- benchmark_bounded_workers_3/
+|   |       |   |-- regression_arima_errors_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_validation_2024_summary.csv
+|   |       |-- benchmark_bounded_workers_4/
+|   |       |   |-- regression_arima_errors_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_validation_2024_summary.csv
+|   |       |-- benchmark_bounded_workers_5/
+|   |       |   |-- regression_arima_errors_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_validation_2024_summary.csv
+|   |       |-- benchmark_bounded_workers_6/
+|   |       |   |-- regression_arima_errors_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_validation_2024_summary.csv
+|   |       |-- benchmark_bounded_workers_8/
+|   |       |   |-- regression_arima_errors_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_validation_2024_summary.csv
+|   |       |-- benchmark_workers_1/
+|   |       |   |-- regression_arima_errors_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_validation_2024_summary.csv
+|   |       |-- benchmark_workers_1_measured/
+|   |       |   |-- regression_arima_errors_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_validation_2024_summary.csv
+|   |       |-- benchmark_workers_2/
+|   |       |   |-- regression_arima_errors_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_validation_2024_summary.csv
+|   |       |-- benchmark_workers_3/
+|   |       |   |-- regression_arima_errors_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_validation_2024_summary.csv
+|   |       |-- benchmark_workers_4/
+|   |       |   |-- regression_arima_errors_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_validation_2024_summary.csv
+|   |       |-- full_validation/
+|   |       |   |-- regression_arima_errors_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_validation_2024_summary.csv
+|   |       `-- full_validation_runtime_segments.jsonl
+|   |-- regression_arima_errors_intervention/
+|   |   |-- tables/
+|   |   |   |-- regression_arima_errors_intervention_coefficients_2024.csv
+|   |   |   |-- regression_arima_errors_intervention_selected_2024.csv
+|   |   |   `-- regression_arima_errors_intervention_vs_calendar_2024.csv
+|   |   `-- validation_2024/
+|   |       |-- full_validation/
+|   |       |   |-- regression_arima_errors_intervention_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_intervention_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_intervention_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_intervention_validation_2024_summary.csv
+|   |       |-- mini_validation/
+|   |       |   |-- regression_arima_errors_intervention_specifications_2024.csv
+|   |       |   |-- regression_arima_errors_intervention_validation_2024_forecasts.csv
+|   |       |   |-- regression_arima_errors_intervention_validation_2024_jobs.csv
+|   |       |   `-- regression_arima_errors_intervention_validation_2024_summary.csv
+|   |       |-- full_validation_runtime_segments.jsonl
+|   |       `-- intervention_runtime_segments.jsonl
+|   |-- tables/
+|   |   |-- apg_smard_austria_comparison.csv
+|   |   |-- smard_column_summary.csv
+|   |   |-- smard_data_audit.json
+|   |   |-- smard_data_audit.md
+|   |   |-- table_6_1_forecasting_tasks.csv
+|   |   `-- table_6_2_candidate_models.csv
+|   |-- computational_runtime_log.md
+|   |-- model_validation_2024_all_models.csv
+|   |-- model_validation_2024_selected_overview.csv
+|   `-- selected_models_registry.csv
+|-- AGENTS.md
+|-- opencode.json
+|-- README.md
+|-- requirements-dev.txt
+|-- requirements.lock
+`-- requirements.txt

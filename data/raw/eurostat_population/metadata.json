@@ -1,0 +1,17 @@
+{
+  "source_files": [
+    {
+      "filename": "Eurostat_Census-GRID_2021_V3.zip",
+      "source_url": "https://gisco-services.ec.europa.eu/census/2021/Eurostat_Census-GRID_2021_V3.zip",
+      "doi": null,
+      "licence": "Eurostat GISCO download rules",
+      "version": "V3",
+      "access_date": "2026-08-19",
+      "sha256": "18a467e3d96b71dd89f0440cc184751bded45721cdff8ba778ece79d7a4f5843",
+      "release_date": "2026-05-30",
+      "metadata_page_url": "https://ec.europa.eu/eurostat/web/gisco/geodata/population-distribution/population-grids",
+      "coordinate_reference_system": "EPSG:3035",
+      "population_variable": "OBS_VALUE where MEASURE=populationAtResidencePlace"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+country,specification_id,specification_order,p,d,q,P,D,Q,seasonal_period,trend,mae,rmse,mape,valid_jobs,invalid_jobs,diagnostics_reviewed,convergence_adequate,residual_rejected_jobs,adequate,inadequacy_reasons,analysis_label
+Austria,sarima_p2_d0_q0_P0_D1_Q0_s24,2,2,0,0,0,1,0,24,n,585.3089384427008,875.5416508227653,8.674555827802488,366,0,True,True,366,True,,enhanced/post-hoc SARIMA robustness analysis
+Austria,sarima_p2_d0_q1_P0_D1_Q0_s24,5,2,0,1,0,1,0,24,n,600.3449615532811,886.8779265175237,8.916464093059124,366,0,True,True,366,True,,enhanced/post-hoc SARIMA robustness analysis
+Austria,sarima_p2_d0_q2_P0_D1_Q0_s24,7,2,0,2,0,1,0,24,n,612.5160044735214,895.2951498945487,9.113289369901429,366,0,True,True,366,True,,enhanced/post-hoc SARIMA robustness analysis
+Germany,sarima_p2_d0_q0_P0_D1_Q0_s24,2,2,0,0,0,1,0,24,n,3886.4925410368737,5906.8090276537605,7.416201751018319,366,0,True,True,366,True,,enhanced/post-hoc SARIMA robustness analysis
+Germany,sarima_p2_d0_q1_P0_D1_Q0_s24,5,2,0,1,0,1,0,24,n,4062.642501704428,6036.784132191755,7.744533475919138,366,0,True,True,366,True,,enhanced/post-hoc SARIMA robustness analysis
+Germany,sarima_p2_d0_q2_P0_D1_Q0_s24,7,2,0,2,0,1,0,24,n,4199.600583372065,6140.967828281515,8.001921833441305,366,0,True,True,366,True,,enhanced/post-hoc SARIMA robustness analysis

@@ -1,0 +1,9 @@
+requested_workers,actually_active_workers,elapsed_seconds,jobs_per_minute,failures,peak_total_rss_mb,swap_mb,forecast_equivalence,safe,analysis_label
+1,1,182.47350657300558,7.891556571933758,0,3386.3125,0.0,True,True,enhanced/post-hoc SARIMA robustness analysis
+2,2,95.97156503697624,15.004444279357037,0,4762.90234375,0.0,True,True,enhanced/post-hoc SARIMA robustness analysis
+3,3,67.51933745201677,21.327223493911635,0,6325.9375,0.0,True,True,enhanced/post-hoc SARIMA robustness analysis
+4,4,52.930863065994345,27.205299830546956,0,7004.7890625,0.0,True,True,enhanced/post-hoc SARIMA robustness analysis
+5,5,51.256620200001635,28.0939319522272,0,6376.07421875,0.0,True,True,enhanced/post-hoc SARIMA robustness analysis
+6,6,48.495730496011674,29.69333558380828,0,7887.56640625,0.0,True,True,enhanced/post-hoc SARIMA robustness analysis
+7,7,46.98068927699933,30.65089129513881,0,9249.9921875,0.0,True,True,enhanced/post-hoc SARIMA robustness analysis
+8,8,48.81272141399677,29.50050639026834,0,9832.67578125,0.0,True,True,enhanced/post-hoc SARIMA robustness analysis

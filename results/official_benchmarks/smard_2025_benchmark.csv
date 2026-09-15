@@ -1,0 +1,3 @@
+country,source,evaluation_period,forecast_type,n_observations,coverage,mae,rmse,mape,directly_comparable_to_2024_models,target_set
+Germany,SMARD,2025,official forecast,8760,1.0,1932.955787671233,2461.9935667080917,3.7105746151232792,yes,authoritative completed model 2025 target timestamps
+Austria,SMARD,2025,official forecast,8760,1.0,337.7490296803653,464.2051105145805,5.028689663403716,yes,authoritative completed model 2025 target timestamps

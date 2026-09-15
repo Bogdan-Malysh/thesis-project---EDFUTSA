@@ -1,0 +1,2 @@
+selected_workers,selection_rule,analysis_label
+7,fastest safe worker count by elapsed_seconds,enhanced/post-hoc SARIMA robustness analysis

@@ -1,0 +1,4 @@
+country,branch,specification_id,p,d,q,trend,transform,expected_jobs,completed_jobs,failed_jobs,expected_dates,valid_dates,invalid_dates,unresolved_dates,expected_observations,evaluated_observations,coverage,mae,rmse,mape,verified_reuse_jobs
+Germany,weekly_differenced,weekly_differenced_arima_p2_d0_q0,2,0,0,c,weekly_difference,366,364,0,366,364,2,0,8784,8735,0.994535519125683,2157.0800109309184,3429.4972289625434,4.167594293274469,0
+Austria,weekly_differenced,weekly_differenced_arima_p1_d0_q1,1,0,1,c,weekly_difference,366,364,0,366,364,2,0,8784,8735,0.994535519125683,386.5816534548451,579.1412616141554,5.761199309027168,0
+Austria,weekly_differenced,weekly_differenced_arima_p2_d0_q0,2,0,0,c,weekly_difference,366,364,0,366,364,2,0,8784,8735,0.994535519125683,413.9457317538218,605.9435807584276,6.080621823697741,0

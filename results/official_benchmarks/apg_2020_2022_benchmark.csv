@@ -1,0 +1,5 @@
+country,source,evaluation_period,forecast_type,n_observations,coverage,mae,rmse,mape,directly_comparable_to_2024_models,target_set,notes
+Austria,APG,2020-2022,official forecast,26304,1.0,325.74408074817524,438.98267820884666,4.585558646954473,no,full valid APG prepared period,Historical Austrian operational benchmark; period/resolution/source are not directly comparable to 2024 model validation.
+Austria,APG,2020,official forecast,8784,1.0,388.5128187613843,500.4136075672139,5.458682787767658,no,full valid APG 2020 period,Historical Austrian operational benchmark; not directly period-comparable to 2024 model validation.
+Austria,APG,2021,official forecast,8760,1.0,310.93912100456623,413.9197562873475,4.315116531028148,no,full valid APG 2021 period,Historical Austrian operational benchmark; not directly period-comparable to 2024 model validation.
+Austria,APG,2022,official forecast,8760,1.0,277.60833333333335,395.2416070521998,3.980484501133878,no,full valid APG 2022 period,Historical Austrian operational benchmark; not directly period-comparable to 2024 model validation.

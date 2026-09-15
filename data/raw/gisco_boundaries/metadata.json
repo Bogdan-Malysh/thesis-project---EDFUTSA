@@ -1,0 +1,21 @@
+{
+  "source_files": [
+    {
+      "filename": "CNTR_RG_01M_2024_4326.geojson",
+      "source_url": "https://gisco-services.ec.europa.eu/distribution/v2/countries/geojson/CNTR_RG_01M_2024_4326.geojson",
+      "metadata_page_url": "https://ec.europa.eu/eurostat/web/gisco/geodata/administrative-units/countries",
+      "release_notes_url": "https://gisco-services.ec.europa.eu/distribution/v2/countries/countries-2024-release-notes.txt",
+      "dataset": "GISCO Countries 2024",
+      "version": "2024",
+      "scale": "1:1 million",
+      "coordinate_reference_system": "EPSG:4326",
+      "countries": [
+        "DE",
+        "AT"
+      ],
+      "licence": "Eurostat GISCO download rules; © EuroGeographics for the administrative boundaries",
+      "access_date": "2026-08-19",
+      "sha256": "5c0019d82d9c54dae8e6b6c1b5a97198c6c67e66fa110b1b55a2ed4b527c5c9e"
+    }
+  ]
+}

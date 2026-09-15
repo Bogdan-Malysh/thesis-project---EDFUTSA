@@ -1,0 +1,9 @@
+country,model_family,specification_id,expected_jobs,completed_jobs,failed_jobs,expected_observations,evaluated_observations,coverage,mae,rmse,mape
+Austria,regression_arima_errors,reg_arima_h,3,3,0,72,72,1.0,621.806295022456,711.3535628131733,10.641569060638927
+Austria,regression_arima_errors,reg_arima_h_d,3,3,0,72,72,1.0,606.3455843827832,704.2817892562223,10.42270637524584
+Austria,regression_arima_errors,reg_arima_h_d_m,3,3,0,72,72,1.0,605.720469385394,704.2664935656699,10.41393453373559
+Austria,regression_arima_errors,reg_arima_h_d_m_hol,3,3,0,72,72,1.0,619.6757620231277,745.7561044346666,10.573632244477457
+Germany,regression_arima_errors,reg_arima_h,3,3,0,72,72,1.0,4963.1290504787985,6627.382312449084,12.028688736841781
+Germany,regression_arima_errors,reg_arima_h_d,3,3,0,72,72,1.0,4942.431778533908,6628.452143651056,11.999180502972195
+Germany,regression_arima_errors,reg_arima_h_d_m,3,3,0,72,72,1.0,4941.953829348202,6627.316661778092,11.99753624852541
+Germany,regression_arima_errors,reg_arima_h_d_m_hol,3,3,0,72,72,1.0,4940.392425312994,6623.88448376565,11.992352405906665

@@ -1,0 +1,9 @@
+country,model_family,mae,rmse,mape,evaluated_observations,expected_observations,coverage,bridge_forecast_observations,diagnostic_note
+Germany,Naive,7908.763451730419,9871.920842612784,16.36149076708629,8784,8784,1.0,2196,"Deterministic baseline; convergence, stationarity/invertibility and residual diagnostics are not applicable."
+Germany,Daily seasonal naive,4442.621749772314,6318.794418485755,8.550558847073555,8784,8784,1.0,2196,"Deterministic baseline; convergence, stationarity/invertibility and residual diagnostics are not applicable."
+Germany,Weekly seasonal naive,2656.1401912568303,4100.841117377879,5.140117743346067,8784,8784,1.0,2196,"Deterministic baseline; convergence, stationarity/invertibility and residual diagnostics are not applicable."
+Germany,Average hour-of-week profile,4245.786166892543,5204.51751546007,8.362371762079494,8784,8784,1.0,2196,"Deterministic baseline; convergence, stationarity/invertibility and residual diagnostics are not applicable."
+Austria,Naive,1167.467213114754,1480.92510451633,18.664443584921628,8784,8784,1.0,5856,"Deterministic baseline; convergence, stationarity/invertibility and residual diagnostics are not applicable."
+Austria,Daily seasonal naive,777.809227003643,1070.4185604717447,11.714545694048164,8784,8784,1.0,5856,"Deterministic baseline; convergence, stationarity/invertibility and residual diagnostics are not applicable."
+Austria,Weekly seasonal naive,409.3303734061931,611.4792179176994,6.059160420672384,8784,8784,1.0,5856,"Deterministic baseline; convergence, stationarity/invertibility and residual diagnostics are not applicable."
+Austria,Average hour-of-week profile,700.8201007280896,858.5952840335067,10.773276716192264,8784,8784,1.0,5856,"Deterministic baseline; convergence, stationarity/invertibility and residual diagnostics are not applicable."

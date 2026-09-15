@@ -1,0 +1,3 @@
+country,model_family,specification_id,specification_order,expected_jobs,completed_jobs,failed_jobs,expected_observations,evaluated_observations,coverage,coverage_eligible,mae,rmse,mape
+Germany,sarima_intervention,sarima_p2_d0_q0_P0_D1_Q0_s24_crisis,1,366,366,0,8784,8784,1.0,True,3886.955606152032,5907.321320903608,7.417017548080739
+Austria,sarima_intervention,sarima_p1_d0_q1_P1_D1_Q0_s24_crisis,1,366,366,0,8784,8784,1.0,True,743.5570722468044,1021.1552158075862,11.211013411858286

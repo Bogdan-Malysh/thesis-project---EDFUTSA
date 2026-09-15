@@ -1,0 +1,11 @@
+Model family,Candidate variants,Seasonal structure,Predictor set
+Naïve,Last available observation,None,Lagged target only
+Daily seasonal naïve,Fixed 24-hour lag,Daily (24 hours),Lagged target only
+Weekly seasonal naïve,Fixed 168-hour lag,Weekly (168 hours),Lagged target only
+Hour-of-week profile,Historical hour-of-week profile,Weekly hour-of-week profile,Historical target profile
+Holt-Winters,Additive and multiplicative; trend and damped-trend variants,Daily (24-hour) and weekly (168-hour) seasonality,Lagged target only
+ARIMA,"Order (p,d,q) selected using training and validation data",None,Lagged target only
+SARIMA,Candidate non-seasonal and seasonal orders,Seasonal period is 24 hours. Weekly effects are represented through weekly baselines or calendar predictors rather than a seasonal period of 168.,Lagged target only
+Regression with ARIMA errors,Calendar-predictor regression with ARIMA errors,Model-dependent,Hour of day; day of week; month; country-specific public holidays. No separate weekend dummy when day-of-week variables are used.
+SARIMAX,Calendar-predictor regression with seasonal ARIMA errors,Model-dependent,Hour of day; day of week; month; country-specific public holidays. No separate weekend dummy when day-of-week variables are used.
+"Note: Temperature is considered only as an optional extension if genuine archived day-ahead temperature forecasts are available.",,,

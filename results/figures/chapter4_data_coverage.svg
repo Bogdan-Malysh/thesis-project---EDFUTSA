@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="748.662344pt" height="280.671474pt" viewBox="0 0 748.662344 280.671474" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-08-18T19:18:02.715865</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 280.671474 
+L 748.662344 280.671474 
+L 748.662344 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 100.732656 241.57872 
+L 731.452656 241.57872 
+L 731.452656 20.39472 
+L 100.732656 20.39472 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 100.732656 241.57872 
+L 100.732656 20.39472 
+" clip-path="url(#pcfad043715)" style="fill: none; stroke: #d9dee3; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 206.044481 241.57872 
+L 206.044481 20.39472 
+" clip-path="url(#pcfad043715)" style="fill: none; stroke: #d9dee3; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 311.068569 241.57872 
+L 311.068569 20.39472 
+" clip-path="url(#pcfad043715)" style="fill: none; stroke: #d9dee3; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 416.092656 241.57872 
+L 416.092656 20.39472 
+" clip-path="url(#pcfad043715)" style="fill: none; stroke: #d9dee3; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 521.116744 241.57872 
+L 521.116744 20.39472 
+" clip-path="url(#pcfad043715)" style="fill: none; stroke: #d9dee3; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 626.428569 241.57872 
+L 626.428569 20.39472 
+" clip-path="url(#pcfad043715)" style="fill: none; stroke: #d9dee3; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 731.452656 241.57872 
+L 731.452656 20.39472 
+" clip-path="url(#pcfad043715)" style="fill: none; stroke: #d9dee3; stroke-width: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_8"/>
+     <g id="text_1">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #263238" x="100.732656" y="255.130966" transform="rotate(-0 100.732656 255.130966)">2020</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_9"/>
+     <g id="text_2">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #263238" x="206.044481" y="255.130966" transform="rotate(-0 206.044481 255.130966)">2021</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_10"/>
+     <g id="text_3">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #263238" x="311.068569" y="255.130966" transform="rotate(-0 311.068569 255.130966)">2022</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_11"/>
+     <g id="text_4">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #263238" x="416.092656" y="255.130966" transform="rotate(-0 416.092656 255.130966)">2023</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_12"/>
+     <g id="text_5">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #263238" x="521.116744" y="255.130966" transform="rotate(-0 521.116744 255.130966)">2024</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_13"/>
+     <g id="text_6">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #263238" x="626.428569" y="255.130966" transform="rotate(-0 626.428569 255.130966)">2025</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_14"/>
+     <g id="text_7">
+      <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #263238" x="731.452656" y="255.130966" transform="rotate(-0 731.452656 255.130966)">2026</text>
+     </g>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 9px; font-family: 'Arial'; text-anchor: middle; fill: #263238" x="416.092656" y="271.577255" transform="rotate(-0 416.092656 271.577255)">Calendar year</text>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_15"/>
+     <g id="text_9">
+      <text style="font-size: 9px; font-family: 'Arial'; fill: #263238" transform="translate(18.721406 48.781355)">SMARD Germany</text>
+      <text style="font-size: 9px; font-family: 'Arial'; fill: #263238" transform="translate(66.221719 58.576941)">hourly</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_16"/>
+     <g id="text_10">
+      <text style="font-size: 9px; font-family: 'Arial'; fill: #263238" transform="translate(28.216406 102.72876)">SMARD Austria</text>
+      <text style="font-size: 9px; font-family: 'Arial'; fill: #263238" transform="translate(66.221719 112.52417)">hourly</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_17"/>
+     <g id="text_11">
+      <text style="font-size: 9px; font-family: 'Arial'; fill: #263238" transform="translate(15.197344 156.676077)">APG Austria actual</text>
+      <text style="font-size: 9px; font-family: 'Arial'; fill: #263238" transform="translate(33.713438 166.471487)">15-minute raw</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_18"/>
+     <g id="text_12">
+      <text style="font-size: 9px; font-family: 'Arial'; fill: #263238" transform="translate(7.2 210.623394)">APG Austria forecast</text>
+      <text style="font-size: 9px; font-family: 'Arial'; fill: #263238" transform="translate(33.713438 220.418804)">15-minute raw</text>
+     </g>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 100.732656 241.57872 
+L 731.452656 241.57872 
+" style="fill: none; stroke: #d9dee3; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 100.732656 49.526271 
+L 731.452656 49.526271 
+L 731.452656 37.657861 
+L 100.732656 37.657861 
+z
+" clip-path="url(#pcfad043715)" style="fill: #4c78a8; stroke: #4c78a8; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 100.732656 62.473627 
+L 731.452656 62.473627 
+L 731.452656 50.605218 
+L 100.732656 50.605218 
+z
+" clip-path="url(#pcfad043715)" style="fill: #9ecae1; stroke: #9ecae1; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 100.732656 103.473588 
+L 731.452656 103.473588 
+L 731.452656 91.605179 
+L 100.732656 91.605179 
+z
+" clip-path="url(#pcfad043715)" style="fill: #4c78a8; stroke: #4c78a8; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 100.732656 116.420944 
+L 731.452656 116.420944 
+L 731.452656 104.552535 
+L 100.732656 104.552535 
+z
+" clip-path="url(#pcfad043715)" style="fill: #9ecae1; stroke: #9ecae1; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 100.732656 163.894583 
+L 416.092656 163.894583 
+L 416.092656 152.026174 
+L 100.732656 152.026174 
+z
+" clip-path="url(#pcfad043715)" style="fill: #d17a45; stroke: #d17a45; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 100.732656 217.8419 
+L 416.092656 217.8419 
+L 416.092656 205.973491 
+L 100.732656 205.973491 
+z
+" clip-path="url(#pcfad043715)" style="fill: #e6b17e; stroke: #e6b17e; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="legend_1">
+    <g id="patch_10">
+     <path d="M 243.706094 17.352246 
+L 256.306094 17.352246 
+L 256.306094 11.052246 
+L 243.706094 11.052246 
+z
+" style="fill: #4c78a8; stroke: #4c78a8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 9px; font-family: 'Arial'; text-anchor: start; fill: #263238" x="263.506094" y="17.352246" transform="rotate(-0 263.506094 17.352246)">SMARD actual</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 336.023594 17.352246 
+L 348.623594 17.352246 
+L 348.623594 11.052246 
+L 336.023594 11.052246 
+z
+" style="fill: #9ecae1; stroke: #9ecae1; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 9px; font-family: 'Arial'; text-anchor: start; fill: #263238" x="355.823594" y="17.352246" transform="rotate(-0 355.823594 17.352246)">SMARD forecast</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 436.338437 17.352246 
+L 448.938438 17.352246 
+L 448.938438 11.052246 
+L 436.338437 11.052246 
+z
+" style="fill: #d17a45; stroke: #d17a45; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 9px; font-family: 'Arial'; text-anchor: start; fill: #263238" x="456.138438" y="17.352246" transform="rotate(-0 456.138438 17.352246)">APG actual</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 515.160156 17.352246 
+L 527.760156 17.352246 
+L 527.760156 11.052246 
+L 515.160156 11.052246 
+z
+" style="fill: #e6b17e; stroke: #e6b17e; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 9px; font-family: 'Arial'; text-anchor: start; fill: #263238" x="534.960156" y="17.352246" transform="rotate(-0 534.960156 17.352246)">APG forecast</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pcfad043715">
+   <rect x="100.732656" y="20.39472" width="630.72" height="221.184"/>
+  </clipPath>
+ </defs>
+</svg>

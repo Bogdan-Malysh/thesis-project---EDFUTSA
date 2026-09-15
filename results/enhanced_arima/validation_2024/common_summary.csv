@@ -1,0 +1,9 @@
+country,branch,specification_id,valid_dates,invalid_dates,common_observations,common_coverage,common_mae,common_rmse,common_mape,common_timestamp_count
+Germany,ordinary,enhanced_ordinary_arima_p1_d1_q2,366,0,8687,1.0,9524.844719149982,11633.38056253691,19.81384064415261,8687
+Germany,ordinary,enhanced_ordinary_arima_p1_d1_q1,366,0,8687,1.0,9787.031699656965,11925.123164161509,20.341132455781892,8687
+Germany,weekly_differenced,weekly_differenced_arima_p2_d0_q0,362,2,8687,1.0,2135.189704256445,3387.7683050348132,4.126478994298493,8687
+Austria,ordinary,enhanced_ordinary_arima_p3_d1_q3,366,0,8687,1.0,1037.3496125157521,1188.3280893636154,15.922016315417798,8687
+Austria,ordinary,enhanced_ordinary_arima_p2_d1_q1,366,0,8687,1.0,994.2883261442993,1231.963566646544,15.38165168641166,8687
+Austria,ordinary,enhanced_ordinary_arima_p3_d1_q1,366,0,8687,1.0,1053.4956676345296,1324.8427845885938,16.647091451282662,8687
+Austria,weekly_differenced,weekly_differenced_arima_p1_d0_q1,362,2,8687,1.0,384.845775505776,576.7838627739095,5.739283290623573,8687
+Austria,weekly_differenced,weekly_differenced_arima_p2_d0_q0,362,2,8687,1.0,412.4421913826632,604.0258811064119,6.061513855492449,8687

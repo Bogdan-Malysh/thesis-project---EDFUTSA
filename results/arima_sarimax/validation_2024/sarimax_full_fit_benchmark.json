@@ -1,0 +1,23 @@
+{
+  "observations": 35058,
+  "parameters": 44,
+  "state_dimension": 26,
+  "optimizer_method": "lbfgs",
+  "function_evaluations": 2880,
+  "iterations": 50,
+  "converged": false,
+  "termination_message": null,
+  "optimizer_status": 1,
+  "optimizer_warnflag": 1,
+  "parameters_finite": true,
+  "stationarity_ok": true,
+  "invertibility_ok": true,
+  "gradient_norm": 0.01855122074362086,
+  "maxiter_limit_reached": true,
+  "maxfun_limit_reached": false,
+  "log_likelihood": -299358.0656853681,
+  "fit_seconds": 499.7527605840005,
+  "rss_start_bytes": 192626688,
+  "rss_finish_bytes": 299659264,
+  "covariance_skipped": true
+}

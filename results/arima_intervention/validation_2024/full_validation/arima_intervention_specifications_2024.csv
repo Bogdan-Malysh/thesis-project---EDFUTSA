@@ -1,0 +1,2 @@
+specification_order,specification_id,error_order,trend,exog_columns
+1,arima_p2_d1_q2_crisis,"[2, 1, 2]",n,"[""is_covid_period"", ""is_post_invasion""]"

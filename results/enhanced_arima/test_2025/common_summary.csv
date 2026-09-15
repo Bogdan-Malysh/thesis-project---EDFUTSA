@@ -1,0 +1,3 @@
+country,branch,specification_id,valid_dates,invalid_dates,common_observations,common_coverage,common_mae,common_rmse,common_mape,common_timestamp_count
+Germany,ordinary,enhanced_ordinary_arima_p1_d1_q2,365,0,8760,1.0,10306.959553928153,12518.611719622197,21.094677777738,8760
+Austria,ordinary,enhanced_ordinary_arima_p2_d1_q1,365,0,8760,1.0,1021.782437369113,1201.6143790271535,15.6953076162103,8760

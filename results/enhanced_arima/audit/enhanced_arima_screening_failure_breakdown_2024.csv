@@ -1,0 +1,24 @@
+country,branch,specification_id,failure_reason,failure_class,failure_count
+Austria,ordinary,enhanced_ordinary_arima_p1_d1_q3,MA roots fail invertibility threshold,convergence/model-adequacy failure,1
+Austria,ordinary,enhanced_ordinary_arima_p2_d1_q3,MA roots fail invertibility threshold,convergence/model-adequacy failure,6
+Austria,ordinary,enhanced_ordinary_arima_p3_d1_q2,AR roots fail stationarity threshold; MA roots fail invertibility threshold,convergence/model-adequacy failure,1
+Austria,weekly_differenced,weekly_differenced_arima_p2_d0_q1,AR roots fail stationarity threshold,convergence/model-adequacy failure,1
+Austria,weekly_differenced,weekly_differenced_arima_p2_d0_q2,MA roots fail invertibility threshold,convergence/model-adequacy failure,1
+Austria,weekly_differenced,weekly_differenced_arima_p3_d0_q1,AR roots fail stationarity threshold; MA roots fail invertibility threshold,convergence/model-adequacy failure,1
+Germany,ordinary,enhanced_ordinary_arima_p1_d1_q3,AR roots fail stationarity threshold; MA roots fail invertibility threshold,convergence/model-adequacy failure,2
+Germany,ordinary,enhanced_ordinary_arima_p2_d1_q1,MA roots fail invertibility threshold,convergence/model-adequacy failure,2
+Germany,ordinary,enhanced_ordinary_arima_p2_d1_q2,AR roots fail stationarity threshold; MA roots fail invertibility threshold,convergence/model-adequacy failure,1
+Germany,ordinary,enhanced_ordinary_arima_p2_d1_q2,MA roots fail invertibility threshold,convergence/model-adequacy failure,1
+Germany,ordinary,enhanced_ordinary_arima_p2_d1_q3,AR roots fail stationarity threshold; MA roots fail invertibility threshold,convergence/model-adequacy failure,2
+Germany,ordinary,enhanced_ordinary_arima_p3_d1_q1,MA roots fail invertibility threshold,convergence/model-adequacy failure,1
+Germany,ordinary,enhanced_ordinary_arima_p3_d1_q2,AR roots fail stationarity threshold; MA roots fail invertibility threshold,convergence/model-adequacy failure,4
+Germany,ordinary,enhanced_ordinary_arima_p3_d1_q3,AR roots fail stationarity threshold; MA roots fail invertibility threshold,convergence/model-adequacy failure,3
+Germany,ordinary,enhanced_ordinary_arima_p4_d1_q1,AR roots fail stationarity threshold; MA roots fail invertibility threshold,convergence/model-adequacy failure,2
+Germany,ordinary,enhanced_ordinary_arima_p4_d1_q2,AR roots fail stationarity threshold; MA roots fail invertibility threshold,convergence/model-adequacy failure,9
+Germany,ordinary,enhanced_ordinary_arima_p4_d1_q2,LinAlgError: LU decomposition error.,convergence/model-adequacy failure,1
+Germany,ordinary,enhanced_ordinary_arima_p4_d1_q2,MA roots fail invertibility threshold,convergence/model-adequacy failure,3
+Germany,weekly_differenced,weekly_differenced_arima_p1_d0_q1,MA roots fail invertibility threshold,convergence/model-adequacy failure,1
+Germany,weekly_differenced,weekly_differenced_arima_p2_d0_q1,MA roots fail invertibility threshold,convergence/model-adequacy failure,1
+Germany,weekly_differenced,weekly_differenced_arima_p2_d0_q2,MA roots fail invertibility threshold,convergence/model-adequacy failure,1
+Germany,weekly_differenced,weekly_differenced_arima_p3_d0_q1,AR roots fail stationarity threshold,convergence/model-adequacy failure,3
+Germany,weekly_differenced,weekly_differenced_arima_p3_d0_q1,MA roots fail invertibility threshold,convergence/model-adequacy failure,1

@@ -1,0 +1,127 @@
+{
+  "timestamp_utc": "2021-02-13T06:00:00+00:00",
+  "local_time": "13 February 2021, 07:00 CET in Germany and Austria",
+  "era5_dataset": "ERA5-Land reanalysis",
+  "era5_source_url": "https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview",
+  "era5_variable": "t2m",
+  "era5_variable_description": {
+    "name": "2 metre temperature",
+    "standard_name": "unknown"
+  },
+  "era5_original_unit": "K",
+  "era5_conversion": "temperature_celsius = temperature_kelvin - 273.15, exactly once",
+  "era5_latitude_direction": "descending",
+  "era5_longitude_direction": "ascending",
+  "colour_scale_validation": {
+    "minimum_c": -28.0,
+    "maximum_c": -2.0,
+    "below_min": 0,
+    "above_max": 0,
+    "total_values": 5565,
+    "cold_colour": [
+      0.0196078431372549,
+      0.18823529411764706,
+      0.3803921568627451,
+      1.0
+    ],
+    "warm_colour": [
+      0.403921568627451,
+      0.0,
+      0.12156862745098039,
+      1.0
+    ]
+  },
+  "population_weight_validation": {
+    "Germany": {
+      "weight_sum": 1.0,
+      "plotted_cells_weighted_c": -11.882122295739304,
+      "processed_csv_c": -11.882122295739237,
+      "difference_c": -6.750155989720952e-14,
+      "maximum_weight": 0.009773334145947526
+    },
+    "Austria": {
+      "weight_sum": 1.0,
+      "plotted_cells_weighted_c": -11.8872208036578,
+      "processed_csv_c": -11.887220803657785,
+      "difference_c": -1.5987211554602254e-14,
+      "maximum_weight": 0.08588362139749312
+    }
+  },
+  "dwd_source_url": "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/historical/",
+  "dwd_variable": "TT_TU",
+  "dwd_variable_description": "quality-controlled hourly 2 m air temperature",
+  "dwd_unit": "°C",
+  "dwd_quality_rule": "exact MESS_DATUM in UTC, finite TT_TU, and positive QN_9",
+  "dwd_source_files": [
+    {
+      "filename": "TU_Stundenwerte_Beschreibung_Stationen.txt",
+      "source_url": "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/historical/TU_Stundenwerte_Beschreibung_Stationen.txt",
+      "sha256": "f1157ce91bebc64bef98695657ad5a6abf739c2c1940f308e226052c6e8015e0"
+    },
+    {
+      "filename": "stundenwerte_TU_00891_19510101_20251231_hist.zip",
+      "local_filename": "stundenwerte_TU_00891_19510101_20251231.zip",
+      "source_url": "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/historical/stundenwerte_TU_00891_19510101_20251231_hist.zip",
+      "sha256": "c44aaf5fcce4473b49befd594163e2b75df0b813ab211460915437130a9d947c"
+    },
+    {
+      "filename": "stundenwerte_TU_01975_19490101_20251231_hist.zip",
+      "local_filename": "stundenwerte_TU_01975_19490101_20251231.zip",
+      "source_url": "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/historical/stundenwerte_TU_01975_19490101_20251231_hist.zip",
+      "sha256": "12146067eba2286a85611f53d78b1eb81b22d2ea86992054aa86e23b7aa46f05"
+    },
+    {
+      "filename": "stundenwerte_TU_02564_20020101_20251231_hist.zip",
+      "local_filename": "stundenwerte_TU_02564_20020101_20251231.zip",
+      "source_url": "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/historical/stundenwerte_TU_02564_20020101_20251231_hist.zip",
+      "sha256": "ca47ad428764bc6e351d9841a1d261f9fdcab05469675cf0aab5cbbead14ba03"
+    },
+    {
+      "filename": "stundenwerte_TU_04271_19470101_20251231_hist.zip",
+      "local_filename": "stundenwerte_TU_04271_19470101_20251231.zip",
+      "source_url": "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/historical/stundenwerte_TU_04271_19470101_20251231_hist.zip",
+      "sha256": "3d1807ae0fd9b6307875ac27604af4f46299998c6123280f5d198c4ffd08d7de"
+    },
+    {
+      "filename": "stundenwerte_TU_01691_19480101_20251231_hist.zip",
+      "local_filename": "stundenwerte_TU_01691_19480101_20251231.zip",
+      "source_url": "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/historical/stundenwerte_TU_01691_19480101_20251231_hist.zip",
+      "sha256": "58891be48aeca8a8bb9b5146a2a98b4a65a0a52586f04ec164660353a22d0b61"
+    },
+    {
+      "filename": "stundenwerte_TU_15207_20131101_20251231_hist.zip",
+      "local_filename": "stundenwerte_TU_15207_20131101_20251231.zip",
+      "source_url": "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/historical/stundenwerte_TU_15207_20131101_20251231_hist.zip",
+      "sha256": "3a1c18c3849abbe5936202e7f1b671164def33f86f16b165da749e3fea184136"
+    },
+    {
+      "filename": "stundenwerte_TU_01270_19510101_20251231_hist.zip",
+      "local_filename": "stundenwerte_TU_01270_19510101_20251231.zip",
+      "source_url": "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/historical/stundenwerte_TU_01270_19510101_20251231_hist.zip",
+      "sha256": "187880d2e25b27b4fef9b84b7aef0824e80e226655237f03f0660408cec04823"
+    },
+    {
+      "filename": "stundenwerte_TU_02928_19510101_20251231_hist.zip",
+      "local_filename": "stundenwerte_TU_02928_19510101_20251231.zip",
+      "source_url": "https://opendata.dwd.de/climate_environment/CDC/observations_germany/climate/hourly/air_temperature/historical/stundenwerte_TU_02928_19510101_20251231_hist.zip",
+      "sha256": "154347620cf41724a746ee10d4bc22021964c9bac16777d6f769fff96f7fb070"
+    }
+  ],
+  "storage_note": "DWD source archives were used from the temporary validation workspace only; observations are not modelling inputs.",
+  "pattern_summary": {
+    "era5_coastal_mean_c": -8.185614013671852,
+    "era5_central_mean_c": -18.201727294921852,
+    "era5_coastal_minus_central_c": 10.01611328125,
+    "dwd_coastal_mean_c": -7.975,
+    "dwd_central_mean_c": -14.225,
+    "dwd_coastal_minus_central_c": 6.25,
+    "conclusion": "Both ERA5-Land and DWD support the broad pattern that the selected northern/coastal locations were generally less cold than the selected central-Germany locations, although Hamburg was colder than Kassel in the DWD station observations."
+  },
+  "limitations": [
+    "Cuxhaven's geometrically nearest ERA5-Land grid cell was non-finite at this timestamp; the table records the nearest finite grid cell instead.",
+    "DWD stations are point observations and can differ from a 0.1-degree reanalysis grid cell because of local exposure, elevation, and spatial representativeness.",
+    "The eight named locations use representative city-centre coordinates; they are not a population sample or a station-based climate climatology."
+  ],
+  "table_filename": "dwd_era5_station_comparison_2021-02-13_0600.csv",
+  "table_sha256": "ee081b52975f894b8c8dcdf3d0912882cbc66673c427a17ffa54f67e10a29888"
+}

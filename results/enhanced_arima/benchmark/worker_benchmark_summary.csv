@@ -1,0 +1,9 @@
+requested_workers,active_workers,supported,status,elapsed_seconds,jobs_per_minute,failures,peak_rss_bytes,peak_swap_bytes,resource_status,max_absolute_forecast_difference,max_relative_forecast_difference,equivalence,safe,reason
+1,1,True,supported,11.048627817974193,152.05508119903658,0,380727296,0,available,0.0,0.0,True,True,safe
+2,2,True,supported,6.265957828989485,268.11543356188446,0,553324544,0,available,0.0,0.0,True,True,safe
+3,3,True,supported,4.747878335008863,353.84225994427544,0,726224896,0,available,0.0,0.0,True,True,safe
+4,4,True,supported,4.095744188991375,410.1818674407299,0,898805760,0,available,0.0,0.0,True,True,safe
+5,5,True,supported,4.363006953994045,385.0555402993504,0,1067900928,0,available,0.0,0.0,True,True,safe
+6,6,True,supported,4.460745347983902,376.61867444625597,0,1252888576,0,available,0.0,0.0,True,True,safe
+7,7,True,supported,4.295370067993645,391.11880313137334,0,1425264640,0,available,0.0,0.0,True,True,safe
+8,8,True,supported,4.560419382993132,368.3871720800749,0,1598500864,0,available,0.0,0.0,True,True,safe

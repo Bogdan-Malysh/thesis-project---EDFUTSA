@@ -1,0 +1,3 @@
+country,selected_specification_id
+Germany,sarima_p2_d0_q0_P0_D1_Q0_s24
+Austria,sarima_p1_d0_q1_P1_D1_Q0_s24
